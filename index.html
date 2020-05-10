@@ -51,8 +51,9 @@
             color: #000;
             background-color: #f2f2f2;
           }
-
-
+          #library {
+            padding-bottom:3rem;
+          }
 
         </style>
 
@@ -264,6 +265,38 @@
 <section id="library">
 		
 			<h1>Club Library</h1>
+
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+  
+        <!-- The slideshow -->
+            <div class="carousel-inner" style="text-align: center;">
+              <div class="carousel-item active">
+                <img src="./images/Library Cover.jpg" alt="" width="100%" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Library 1.jpg" alt="" width="100%" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Library 2.jpg" alt="" width="100%" height="600">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
 </section>
 
 
@@ -440,7 +473,6 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/main.js"></script>
 			<script src="assets/js/bootstrap.min.js"></script>
 
 	</body>
